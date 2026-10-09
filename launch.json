@@ -1,0 +1,13 @@
+{
+  "kind": "evm_contracts",
+  "contracts": [
+    {
+      "contract": "BaskVault",
+      "constructorArgs": [
+        "0x30B57ECf51D19ABcED7F6f70974e6fBb6f3b9Da3",
+        "0x5ed39AF86f2C00ad99913B5d727bD68f2A904B68"
+      ]
+    }
+  ],
+  "notes": "Basket (BASK), an 18-decimal index vault share for Stock Tokens. Zero initial supply. Owner configures genesis assets and finalizes genesis before deposits open. No launch token, pool, or website."
+}
