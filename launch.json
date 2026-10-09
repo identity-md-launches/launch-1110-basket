@@ -9,5 +9,5 @@
       ]
     }
   ],
-  "notes": "Basket (BASK), an 18-decimal index vault share for Stock Tokens. Zero initial supply. Owner configures genesis assets and finalizes genesis before deposits open. No launch token, pool, or website."
+  "notes": "Basket Protocol is an index vault for Stock Tokens on Robinhood Chain. BaskVault is the Basket (BASK) 18-decimal ERC-20 share, with zero supply at deployment and no supply cap: deposits mint shares and redemptions burn net shares. The constructor assigns the owner and guardian to the literal addresses above. The owner lists at least three genesis assets and calls finalizeGenesis before deposits open. This manifest deploys only BaskVault; no separate launch token, pool, or website."
 }
